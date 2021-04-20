@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/karajsch/poem-maker/issues"
   },
-  "homepage": "https://github.com/karajsch/poem-maker#readme"
+  "homepage": "https://github.com/karajsch/poem-maker#readme",
+  "dependencies": {
+    "rita": "^2.4.86"
+  }
 }
