@@ -1,0 +1,10 @@
+body {
+  background-color: white;
+  margin: 2%;
+}
+
+h1 {
+  font-size: 120px;
+  font-family: "Goudy Bookletter 1911", serif;
+  color: rgb(0, 157, 89);
+}
