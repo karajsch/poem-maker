@@ -1,14 +1,21 @@
 body {
   background: white;
-  margin: 2%;
+  margin: 3%;
   font-size: 18pt;
   font-family: "Goudy Bookletter 1911", serif;
   font-style: italic;
   color: black;
 }
 
+.container {
+  border: 5px solid rgb(160, 255, 165);
+  margin: auto;
+  max-width: 900px;
+  min-width: 75%;
+}
+
 h1 {
-  font-size: 120px;
+  font-size: 140px;
   font-family: "Goudy Bookletter 1911", serif;
   font-style: italic;
   color: black;
@@ -16,14 +23,16 @@ h1 {
 
 .btn {
   padding: 5px 30px;
-  background: lightgrey;
-  border: 1px solid black;
+  background: rgb(160, 255, 165);
   border-radius: 10px;
+  font-family: menlo;
+  width: 50%;
+  margin: auto;
 }
 
 .btn:hover {
   padding: 5px 30px;
-  background: rgb(232, 232, 232);
-  border: 1px solid black;
+  background: rgb(99, 242, 106);
   transition: 0.25s;
+  font-family: menlo;
 }
