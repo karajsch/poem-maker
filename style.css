@@ -1,10 +1,29 @@
 body {
-  background-color: white;
+  background: white;
   margin: 2%;
+  font-size: 18pt;
+  font-family: "Goudy Bookletter 1911", serif;
+  font-style: italic;
+  color: black;
 }
 
 h1 {
   font-size: 120px;
   font-family: "Goudy Bookletter 1911", serif;
-  color: rgb(0, 157, 89);
+  font-style: italic;
+  color: black;
+}
+
+.btn {
+  padding: 5px 30px;
+  background: lightgrey;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  padding: 5px 30px;
+  background: rgb(232, 232, 232);
+  border: 1px solid black;
+  transition: 0.25s;
 }
